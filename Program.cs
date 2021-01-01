@@ -9,8 +9,76 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
+            ReverseString("geeksforgeeks", 0, "geeksforgeeks".Length - 1);
+            //ReverseArray(new int[] { 1, 2, 3, 4, 5 }, 0, 4);
             //RemoveDuplicates("AACCDBDDDBBCCAA");
-            FindCommonFactors();
+            //FindCommonFactors();
+        }
+
+        public static void ReverseString(string inputString, int start, int end)
+        {
+            Console.WriteLine(inputString);
+
+            string reversedString = ReverseStringUsingWhileLoop(inputString, start, end);
+
+            Console.WriteLine("Reversed String : ");
+            Console.WriteLine(reversedString);
+            Console.ReadLine();
+        }
+
+        public static string ReverseStringUsingWhileLoop(string inputString, int start, int end)
+        {
+            char[] charArr = inputString.ToCharArray();
+
+            char temp;
+            while (start < end)
+            {
+                temp = charArr[start];
+                charArr[start] = charArr[end];
+                charArr[end] = temp;
+                start++;
+                end--;
+            }
+
+            return String.Join("", charArr);
+        }
+
+        public static void ReverseArray(int[] inputArray, int start, int end)
+        {
+            Common.PrintArray(inputArray);
+
+            // ReverseArrayUsingWhileLoop(inputArray, start, end);
+            ReverseArrayRecursive(inputArray, start, end);
+
+            Console.WriteLine("Reversed Array : ");
+            Common.PrintArray(inputArray);
+            Console.ReadLine();
+        }
+
+        public static void ReverseArrayUsingWhileLoop(int[] inputArray, int start, int end)
+        {
+            int temp;
+            while (start < end)
+            {
+                temp = inputArray[start];
+                inputArray[start] = inputArray[end];
+                inputArray[end] = temp;
+                start++;
+                end--;
+            }
+        }
+
+        public static void ReverseArrayRecursive(int[] inputArray, int start, int end)
+        {
+            int temp;
+            if (start >= end)
+                return;
+
+            temp = inputArray[start];
+            inputArray[start] = inputArray[end];
+            inputArray[end] = temp;
+            
+            ReverseArrayRecursive(inputArray, start+1, end-1);
         }
 
         public static void RemoveDuplicates(string inputString)
