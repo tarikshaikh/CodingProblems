@@ -1,0 +1,13 @@
+D:\tarik\Development\CodingProblems\CodingProblems\bin\Debug\netcoreapp3.1\CodingProblems.exe
+D:\tarik\Development\CodingProblems\CodingProblems\bin\Debug\netcoreapp3.1\CodingProblems.deps.json
+D:\tarik\Development\CodingProblems\CodingProblems\bin\Debug\netcoreapp3.1\CodingProblems.runtimeconfig.json
+D:\tarik\Development\CodingProblems\CodingProblems\bin\Debug\netcoreapp3.1\CodingProblems.runtimeconfig.dev.json
+D:\tarik\Development\CodingProblems\CodingProblems\bin\Debug\netcoreapp3.1\CodingProblems.dll
+D:\tarik\Development\CodingProblems\CodingProblems\bin\Debug\netcoreapp3.1\CodingProblems.pdb
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.csprojAssemblyReference.cache
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.AssemblyInfoInputs.cache
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.AssemblyInfo.cs
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.csproj.CoreCompileInputs.cache
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.dll
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.pdb
+D:\tarik\Development\CodingProblems\CodingProblems\obj\Debug\netcoreapp3.1\CodingProblems.genruntimeconfig.cache
