@@ -9,7 +9,7 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
-            ReverseString("geeksforgeeks", 0, "geeksforgeeks".Length - 1);
+            ReverseString("ge eksforgee ks", 0, "ge eksforgee ks".Length - 1);
             //ReverseArray(new int[] { 1, 2, 3, 4, 5 }, 0, 4);
             //RemoveDuplicates("AACCDBDDDBBCCAA");
             //FindCommonFactors();
