@@ -9,7 +9,19 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
-            ReverseString("ge eksforgee ks", 0, "ge eksforgee ks".Length - 1);
+            MyStack s1 = new MyStack(10);
+            s1.Push(133);
+            s1.Push(59);
+            s1.Push(45);
+            s1.Push(98);
+            s1.Push(565);
+            s1.Push(98);
+            s1.Push(87);
+            s1.Pop();
+            s1.Pop();
+            s1.Pop();
+            s1.Pop();
+            //ReverseString("ge eksforgee ks", 0, "ge eksforgee ks".Length - 1);
             //ReverseArray(new int[] { 1, 2, 3, 4, 5 }, 0, 4);
             //RemoveDuplicates("AACCDBDDDBBCCAA");
             //FindCommonFactors();
